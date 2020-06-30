@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+
+<title> Currency Converter </title>
+<link rel="icon" href="/static/icon.png" type="image/icon type">
+</head>
+<body>
+    <form action="{{ url_for('index') }}" method="post">
+        <h1>Currency Converter &nbsp;&nbsp;</h1>
+        <fieldset>
+            <label for="from_symbol"> From : </label>
+            <select id="from_symbol" name="from_symbol"> 
+                {% for key,value in symbols.items() %}
+                    <option value="{{ key }}"> {{ key }} : {{ value }} </option>
+                {% endfor %}
+            </select>
+            <label for="to_symbol"> To : </label>
+            <select id="to_symbol" name="to_symbol"> 
+                {% for key,value in symbols.items() %}
+                    <option value="{{ key }}"> {{ key }} : {{ value }} </option>
+                {% endfor %}
+            </select>
+        </fieldset>
+        <fieldset>
+            <input type="submit">
+        <p>{{ result }}</p>
+        </fieldset>
+        <fieldset>
+            <p>Report Bug:</p>
+            <a href="https://www.linkedin.com/in/jainj2305/">LinkedIn</a>
+            <a href="http://wa.me/917300255262">WhatsApp</a>
+            <a href="https://twitter.com/jj_jinendra/">Twitter</a>
+            <br>
+            <a href="https://github.com/jainj2305/">GitHub</a>
+        </fieldset>
+    </form>
+</body>
+</html>
