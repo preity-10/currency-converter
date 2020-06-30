@@ -1,15 +1,15 @@
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template, request
 import json
 import requests
 
 app=Flask(__name__)
 
-with open('static/currency.json','r') as fhand:
-    symbols=json.load(fhand)
+with open('/static/currency.json','r') as fhand:
+    symbols=json.load(fhand)  #file of all the currency
 
-base_url="http://data.fixer.io/api/latest?"
-access_key="d04285ab839a6e10f1e74b4283856392"
-url=base_url+"access_key="+access_key
+base_url="http://data.fixer.io/api/latest?"      #URL of API provider
+access_key="d04285ab839a6e10f1e74b4283856392"    #My access key of API
+url=base_url+"access_key="+access_key            #Complete url of API
 
 
 @app.route("/", methods=["GET","POST"])
