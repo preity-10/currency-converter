@@ -1,10 +1,9 @@
 body{
-  background-color: #fff;
   font-size: 20px;
   font-weight: bold;
   font-family:'Courier New',monospace;
   text-shadow: 1px 1px 1px #222;
-
+  background: -webkit-repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 0, 0, .05) 10px, rgba(0, 0, 0, .05) 20px),-webkit-linear-gradient(top, #e6e0dc, #b3aba6);
 
 }
 
@@ -26,6 +25,18 @@ a{
   border-radius: .85rem;
   box-shadow: 0 1px 1px 1px #c2185b;
   text-shadow: 0.1px 0.1px 0.1px #222;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffd54f), to(#ef6c00));
+
+}
+
+ #option{
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5) inset, 0 2px 2px 2px #1F1F1F inset;
+  box-sizing: content-box;
+  margin:  5px 500px 5px 5px;
+  background: -webkit-repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 0, 0, .05) 10px, rgba(0, 0, 0, .05) 20px),-webkit-linear-gradient(top, #e6e0dc, #b3aba6);
+  border-radius: .25rem;
+  text-align: center;
+  padding: .3rem 0.5rem;
 
 }
 
@@ -56,8 +67,10 @@ a{
 .btn-primary {
    color: #fff;
    background-color: #007bff;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#007bff), to(#c2185b));
    border-color: #007bff;
    text-shadow: 1px 1px 1px #222;
+   -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5) inset, 0 2px 2px 2px #1F1F1F inset;
  }
 
 /**end button**/
