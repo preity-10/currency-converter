@@ -67,7 +67,7 @@ a{
 .btn-primary {
    color: #fff;
    background-color: #007bff;
-   background-image: -webkit-gradient(linear, left top, left bottom, from(#007bff), to(#c2185b));
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#B3E5FC), to(#007bff)));
    border-color: #007bff;
    text-shadow: 1px 1px 1px #222;
    -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.5) inset, 0 2px 2px 2px #1F1F1F inset;
