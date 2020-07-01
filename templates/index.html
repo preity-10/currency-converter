@@ -9,7 +9,7 @@
 </head>
 <body>
     <form action="{{ url_for('index') }}" method="post">
-        <h1>Currency Converter &nbsp;&nbsp;</h1>
+        <h1 id="option">Currency Converter &nbsp;&nbsp;</h1>
         <fieldset id="field">
             <label for="from_symbol"> From: </label>
             <select class="btn" id="from_symbol" name="from_symbol">
@@ -43,7 +43,7 @@
               </svg>
             </a>
             <br>
-            <p>Rise issue:>
+            <p id="option">Rise issue:>
             <a href="https://github.com/jainj2305/currency-converter/issues/new">GitHub</a></p>
         </fieldset>
     </form>
