@@ -3,6 +3,8 @@ body{
   font-size: 20px;
   font-weight: bold;
   font-family:'Courier New',monospace;
+  text-shadow: 1px 1px 1px #222;
+
 
 }
 
@@ -17,15 +19,20 @@ a{
 }
 
 #field{
-  background-color: #9E9E9E;
-  font-size: 1.7em;
+  background-color: #ffd54f;
+  font-size: 1.1em;
   margin: 5px 5px 5px 5px;
+  border: 1px solid #ad1457;
+  border-radius: .85rem;
+  box-shadow: 0 1px 1px 1px #c2185b;
+  text-shadow: 0.1px 0.1px 0.1px #222;
+
 }
 
 /**button**/
 .btn {
     display: inline-block;
-    font-weight: 600;
+    font-weight: 540;
     color: #212529;
     text-align: center;
     vertical-align: middle;
@@ -42,13 +49,15 @@ a{
    padding: .5rem 1rem;
    font-size: 1.5rem;
    line-height: 1.5;
-   border-radius: .3rem;
+   border-radius: .80rem;
+   box-shadow: 0 1px 2px 1px #c2185b;
 }
 
 .btn-primary {
    color: #fff;
    background-color: #007bff;
    border-color: #007bff;
+   text-shadow: 1px 1px 1px #222;
  }
 
 /**end button**/
@@ -62,6 +71,7 @@ SVG Icons - svgicons.sparkk.fr
   height: 1.5em;
   cursor: grab ;
   margin: 3px 3px 3px 3px;
+  border-radius: .40rem;
 }
 
 .svg-icon path,
@@ -75,3 +85,15 @@ SVG Icons - svgicons.sparkk.fr
   stroke-width: 1;
 }
 /****end icon *********/
+
+
+
+@media (min-width :768px){
+  .btn{
+    font-weight: 600;
+  }
+
+  #field{
+    font-size: 1.5em;
+  }
+}
