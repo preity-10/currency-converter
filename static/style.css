@@ -1,0 +1,99 @@
+body{
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Courier New',monospace;
+  text-shadow: 1px 1px 1px #222;
+
+
+}
+
+h1{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.7em;
+}
+
+a{
+  text-decoration: none;
+}
+
+#field{
+  background-color: #ffd54f;
+  font-size: 1.1em;
+  margin: 5px 5px 5px 5px;
+  border: 1px solid #ad1457;
+  border-radius: .85rem;
+  box-shadow: 0 1px 1px 1px #c2185b;
+  text-shadow: 0.1px 0.1px 0.1px #222;
+
+}
+
+/**button**/
+.btn {
+    display: inline-block;
+    font-weight: 540;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #e3f2fd;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.btn-lg {
+   padding: .5rem 1rem;
+   font-size: 1.5rem;
+   line-height: 1.5;
+   border-radius: .80rem;
+   box-shadow: 0 1px 2px 1px #c2185b;
+}
+
+.btn-primary {
+   color: #fff;
+   background-color: #007bff;
+   border-color: #007bff;
+   text-shadow: 1px 1px 1px #222;
+ }
+
+/**end button**/
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+  cursor: grab ;
+  margin: 3px 3px 3px 3px;
+  border-radius: .40rem;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+/****end icon *********/
+
+
+
+@media (min-width :768px){
+  .btn{
+    font-weight: 600;
+  }
+
+  #field{
+    font-size: 1.5em;
+  }
+}
