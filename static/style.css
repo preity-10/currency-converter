@@ -111,7 +111,15 @@ SVG Icons - svgicons.sparkk.fr
 }
 /****end icon *********/
 
+@media (max-width :768px) and (min-width:360px){
+  h1{
+    font-size: 1.9em;
+  }
+  .btn{
+    padding: .375rem .75rem;
+  }
 
+}
 
 @media (min-width :768px){
   .btn{
