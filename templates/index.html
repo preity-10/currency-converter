@@ -16,8 +16,8 @@
                 {% for key,value in symbols.items() %}
                     <option value="{{ key }}"> {{ key }} : {{ value }} </option>
                 {% endfor %}
-            </select>
-            <label for="to_symbol"> To: </label>
+            </select><br>
+            <label for="to_symbol"> To:&nbsp;&nbsp; </label>
             <select class="btn" id="to_symbol" name="to_symbol">
                 {% for key,value in symbols.items() %}
                     <option value="{{ key }}"> {{ key }} : {{ value }} </option>
