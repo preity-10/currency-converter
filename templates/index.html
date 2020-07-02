@@ -4,11 +4,11 @@
 
 <title> Currency Converter </title>
 <link rel="icon" href="/static/icon.png" type="image/icon type">
-<link href="/static/style.css" rel="stylesheet">
+<link href="./style.css" rel="stylesheet">
 
 </head>
 <body>
-    <form action="{{ url_for('index') }}" method="post">
+    <form id="action" action="{{ url_for('index') }}" method="post">
         <h1 id="option">Currency Converter &nbsp;&nbsp;</h1>
         <fieldset id="field">
             <label for="from_symbol"> From: </label>
@@ -31,10 +31,10 @@
         <fieldset id="field">
             <p>Report Bug:</p>
             <a href="https://www.linkedin.com/in/jainj2305/">
-              <img src="/static/linkedin.jpg"  class="svg-icon">
+              <img src="./linkedin.jpg"  class="svg-icon">
             </a>
             <a href="http://wa.me/917300255262">
-              <img src="/static/wp.jpg"  class="svg-icon">
+              <img src="./wp.jpg"  class="svg-icon">
             </a>
             <a href="https://twitter.com/jj_jinendra/">
               <svg class="svg-icon" viewBox="0 0 20 20">
@@ -43,8 +43,10 @@
               </svg>
             </a>
             <br>
-            <p id="option">Rise issue:>
-            <a href="https://github.com/jainj2305/currency-converter/issues/new">GitHub</a></p>
+            <p>Rise issue:>
+            <a href="https://github.com/jainj2305/currency-converter/issues/new">
+              <img src="./gh.jpg"  class="svg-icon">
+            </a></p>
         </fieldset>
     </form>
 </body>
