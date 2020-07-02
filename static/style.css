@@ -126,6 +126,7 @@ a{
     line-height: 1.5;
     border-radius: .25rem;
     cursor: pointer;
+    margin: 5px;
 }
 
 .btn-lg {
@@ -158,7 +159,7 @@ SVG Icons - svgicons.sparkk.fr
 .svg-icon {
   width: 1.5em;
   height: 1.5em;
-  cursor: grab ;
+  cursor: pointer ;
   margin: 1px 1px 1px 1px;
   border-radius: .40rem;
 }
